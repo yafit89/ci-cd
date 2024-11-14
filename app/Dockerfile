@@ -7,6 +7,6 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-# RUN pytest
+RUN pytest
 
 CMD [ "python", "users.py" ]
